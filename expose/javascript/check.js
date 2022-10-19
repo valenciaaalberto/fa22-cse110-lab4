@@ -9,6 +9,7 @@ function sumValues(num1, num2, add){
 }
 sumValues(10,10,true);
 */
+/*
 function discountPrices(prices, discount){
     const discounted = [];
     const length = prices.length;
@@ -20,3 +21,13 @@ function discountPrices(prices, discount){
      return discounted;
 }
 console.log(discountPrices([100,200,300],.5));
+*/
+
+let student = {
+
+    name: 'Sarah', major: 'Computer Science', 'Grad Year':'2022',
+    greeting: function(){console.log('Hello!');},'Favorite Teacher':{
+        name: 'Thomas Powell',
+        course: 'CSE 110'
+    },courseload:['CSE 110','CSE 134','VIS 41'] 
+};
