@@ -22,3 +22,14 @@ Similar to Q5, discountedPrice is of the let type so it cannot be reach beyond t
 Line 14 prints 150 because finalPrice is instantiated prior to the for loop so it is accessible according to its scope and since it is updated each time in the for loop, it will retain the last value it is updated to which is 150.
 
 ## Q8
+
+The function will return the array of updated discounted prices [ 50, 100, 150 ]. This is because the array discounted's scope is accessible through the entire function. Moreover, since it is update in the for loop that is why it has updated discount values.
+
+## Q9
+Line 11 will return an error because i is accessed outside of its scope
+
+## Q10
+Line 12 will print "3" because the variable length is a const and is not being updated after instantiation, so there is no error there.
+
+## Q11
+This function returns [ 50, 100, 150 ] because while the discounted array is const, this means that each index in the array cannot be updated, which it is not so there is no issue there and the array stores the correct discounted values.

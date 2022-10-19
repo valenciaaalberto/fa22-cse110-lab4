@@ -1,7 +1,7 @@
 # Answer to Part One Questions
 
 ## Q1
-QLine 9 rprints "values added 20" 
+Line 9 rprints "values added 20" 
 
 ## Q2
 Line 13 prints "final result 20"
