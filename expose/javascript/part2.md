@@ -37,7 +37,7 @@ This function returns [ 50, 100, 150 ] because while the discounted array is con
 ## Q12
 ### A) To access the name object, you write 'student.name'
 ### B) To access the value of the Grad Year property in the student object, you write 'student['Grad Year']'
-### C) To call the function for the greeting property in the student object, you write 'student.function()' not sure if correct
+### C) To call the function for the greeting property in the student object, you write 'student.greeting()' not sure if correct
 ### D) To access the name property of the object in the Favorite Teacher property in student, you write 'student['Favorite Teacher'].name'
 ### E) To Access index zero in the array of the courseLoad property of the student object, you write 'student.courseload[0]'.
 
@@ -63,3 +63,9 @@ This function returns [ 50, 100, 150 ] because while the discounted array is con
 ## Q15)
 
 The diffence between == and === is that === short circuits if you are comparing two different types whereas == is not strict with the values btoueing compared and looks at the values instead. 
+
+## Q17)
+The result is [ 2, 4, 6 ] because when the doSomething function is passed as the argument for callback, each array[i] is passed into the doSomething function which returns that value multiplied by two. Since we do that for each element in the array, each original value was multiplied by two.
+
+## Q 19) 
+The output of the code above is 1,4,3,2.
