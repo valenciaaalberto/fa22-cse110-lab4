@@ -33,3 +33,33 @@ Line 12 will print "3" because the variable length is a const and is not being u
 
 ## Q11
 This function returns [ 50, 100, 150 ] because while the discounted array is const, this means that each index in the array cannot be updated, which it is not so there is no issue there and the array stores the correct discounted values.
+
+## Q12
+### A) To access the name object, you write 'student.name'
+### B) To access the value of the Grad Year property in the student object, you write 'student['Grad Year']'
+### C) To call the function for the greeting property in the student object, you write 'student.function()' not sure if correct
+### D) To access the name property of the object in the Favorite Teacher property in student, you write 'student['Favorite Teacher'].name'
+### E) To Access index zero in the array of the courseLoad property of the student object, you write 'student.courseload[0]'.
+
+## Q13
+### A) ‘3’ + 2 = 32 because integers map to their exact string representation
+### B) ‘3’ - 2 = 1 because - operation is not overloaded and operands are converted to numbers
+### C)  3 + null = 3 because like false, null assumes the value 0
+### D) ‘3’ + null = 3null because the + operation is overloaded such that strings are concatenated
+### E) true + 3 = 4 because true assumes the value 1
+### F) false + null = 0 because each value is intrepreted as the integer 0
+### G) '3' + undefined = 3undefined because the + operation is overloaded such that strings are concatenated
+### H) '3' - undefined = NaN because undefined assumes the value Nan so the it's integer value does not permit it to be subtracted
+
+## Q13
+
+### A) True because '2' becomes an integer and 2 is greater than 1
+### B) False because the dictionary compares the first letter in the string such that 2 is not less than 1.
+### C) True because '2' becomes an integer and so 2 does equal 2.
+### D) False because both each side is a differnt type so comparing different types is automatically false.
+### E) False because true = 1 which is not equal to 2.
+### F) True because Boolean(2) = true which means we are comparing the correct types and then true does equal true.
+
+## Q15)
+
+The diffence between == and === is that === short circuits if you are comparing two different types whereas == is not strict with the values btoueing compared and looks at the values instead. 

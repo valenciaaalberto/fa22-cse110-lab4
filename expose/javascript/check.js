@@ -31,3 +31,4 @@ let student = {
         course: 'CSE 110'
     },courseload:['CSE 110','CSE 134','VIS 41'] 
 };
+console.log(student['function()']);
