@@ -1,0 +1,2 @@
+1) The bug is that the program is concatenating two strings as opposed to adding their float values.
+2) Given that the issue seems to be with adding strings, to resolve the bug I would simply ensure that the arguments are floats since there is no restriction on what the user can enter which can be done by parsing the two arguments into floats. In the right side under watch, I included what the result would look like.
