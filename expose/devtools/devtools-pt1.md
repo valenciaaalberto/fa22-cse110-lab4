@@ -6,7 +6,7 @@ The file which initiated the download of the new file is expose.js
 ## Q3)
 The size of the file is 778.27kb.
 ## Q4)
-The file took 607ms to download.
+The file took 115ms to download.
 ## Q5)
 The user-agent is  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15.
 ## Q6)
